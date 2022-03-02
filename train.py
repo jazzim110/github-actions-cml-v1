@@ -13,6 +13,7 @@ seed = 42
 
 # Load in the data
 df = pd.read_csv("winequality-red.csv")
+# df = pd.read_csv("D://programs//github-actions-cml-v1//winequality-red.csv")
 
 # Split into train and test sections
 y = df.pop("quality")
